@@ -15,7 +15,7 @@ namespace FastNotes.Domain.Entites
         public string Token { get; set; }
         public DateTime Expiration { get; set; }
         public bool Used { get; set; }
-        public bool Invalidaded { get; set; }
+        public bool Invalidated { get; set; }
         public string UserId { get; set; }
         public ApplicationUser User { get; set; }
     }

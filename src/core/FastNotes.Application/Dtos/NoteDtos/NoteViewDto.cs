@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FastNotes.Domain.Entites
+namespace FastNotes.Application.Dtos.NoteDtos
 {
     /// <summary>
-    /// Uygulama notları tablosunu temsil eden entity sınıfı.
+    /// Not görüntüleme için kullanılan veri transfer nesnesi (DTO).
     /// </summary>
-    public class Note
+    public class NoteViewDto
     {
         public int Id { get; set; }
         public string Title { get; set; }
@@ -17,6 +17,5 @@ namespace FastNotes.Domain.Entites
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
         public string UserId { get; set; }
-        public ApplicationUser User { get; set; }
     }
 }
