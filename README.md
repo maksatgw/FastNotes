@@ -36,3 +36,6 @@ FastNotes, notlarınızı kolayca yönetmenizi sağlayan bir uygulamadır. Bu pr
    ```bash
    dotnet run --project src/webapi/FastNotes.API
    ```
+
+## DeepWiki - Devin Proje Indexlemesi
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/maksatgw/FastNotes)
